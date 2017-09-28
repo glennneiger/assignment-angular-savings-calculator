@@ -4,13 +4,14 @@ Use Angular to create a savings calculator that will calculate how much a saving
 This is the same savings calculator that you created with vanilla JavaScript, only this time you will use Angular.
 
 1. Fork this repository to your own GitHub profile.
-2. Clone your forked repository to your local development workstation.
-3. Use the Angular CLI to create a new Angular app in the existing directory with the following command. We skip git, because it is already a git repository.
+1. Clone your forked repository to your local development workstation.
+1. Use the Angular CLI to create a new Angular app in the existing directory with the following command. We skip git, because it is already a git repository.
 ```
 ng new angular-savings-calculator --directory ./ --skip-git
 ```
 <br>
-![Results Image](angular-savings-calculator.JPG?raw=true)
+
+![Savings Rate Calculator Image](./angular-savings-calculator.JPG?raw=true)
 
 
   Use the following css to style your tables.
