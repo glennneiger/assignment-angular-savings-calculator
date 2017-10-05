@@ -21,7 +21,12 @@ export class SavingsCalculatorService {
       interest = balance * ((rate / 100) / 12);
       balance += interest;
 
-      savingsRow = new SavingsRow(month, interest, balance);       savingsRows.push(savingsRow);
+      savingsRow = {
+        month: month,
+        interest: interest,
+        balance: balance
+      };
+      savingsRows.push(savingsRow);
     }
 
     return savingsRows;
